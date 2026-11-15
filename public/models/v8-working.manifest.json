@@ -1,0 +1,663 @@
+{
+  "generatedAt": "2026-11-15T14:38:52.234Z",
+  "source": {
+    "path": "model-review/V8 Executive/v8_executive_01/V8-Executive.fbx",
+    "sha256": "56df7214c057bcde046b324078721f9e6cde761838a29ec086aed08efd35193c"
+  },
+  "patch": {
+    "path": "model-review/v8-working/door-cavity.patch.json",
+    "sha256": "7adecbf97ed6f8146410f05446638aa30b1d8d477d63d4735ffafa1ec716eba2"
+  },
+  "glb": {
+    "path": "public/models/v8-working.glb",
+    "bytes": 10450476,
+    "uncompressedGLBBytes": 19155864,
+    "gzipBytes": 6077943,
+    "sha256": "a58854a568c22474101872c65fd644ee16ca37aa8762df7d993eedb038c70663"
+  },
+  "before": {
+    "meshes": 490,
+    "triangles": 704399,
+    "vertices": 2113149,
+    "transparentMeshes": 34
+  },
+  "after": {
+    "meshes": 265,
+    "triangles": 704399,
+    "vertices": 486891,
+    "transparentMeshes": 34
+  },
+  "protectedNames": [
+    "Wheel_RR__Wheel_lug029",
+    "Wheel_RR__Brake_disc003",
+    "Wheel_FL__Spoke001",
+    "DoorGlass_FR__Front_door_glass001",
+    "Wheel_RL__Spoke024",
+    "Wheel_FR__Brake_disc001",
+    "Door_RR__V8_DoorCard_DoorRearR",
+    "Wheel_RR__Brake_drilling002",
+    "Wheel_RL__Tire002",
+    "Wheel_FL__Wheel_lug018",
+    "Door_FL__Door_strip",
+    "Door_FR__Front_door_glass_seal001",
+    "Wheel_RR__Wheel_lug021",
+    "Door_RR__Black_pillar_trim003",
+    "Wheel_RL__Rim_barrel_shadow002",
+    "Door_FL__V8_DoorCard_DoorFrontL",
+    "Wheel_FL__Wheel_lug019",
+    "Body__AI11_optical_rib010",
+    "Door_RL__Rear_door_glass_seal",
+    "Glass__Detail_HeadlampLOuter_ProjectorLens",
+    "Wheel_FL__Spoke002",
+    "Body__AI11_optical_rib",
+    "Wheel_FR__Tire001",
+    "Glass__Detail_HeadlampRInner_Bulb",
+    "Wheel_RR__Wheel_lug026",
+    "Wheel_FL__Brake_drilling001",
+    "Wheel_FR__Wheel_lug003",
+    "Wheel_FR__Spoke018",
+    "DoorGlass_RR__Rear_door_glass001",
+    "Wheel_FL__Brake_disc",
+    "Wheel_FR__Spoke013",
+    "Door_RR__DLO_rubber001",
+    "Door_RL__Shut_line003",
+    "Door_FL__Shut_line",
+    "Wheel_RL__Spoke025",
+    "Door_RL__V8_DoorWood_DoorRearL",
+    "Wheel_RL__Hub002",
+    "Wheel_FL__Tire",
+    "Wheel_FL__Wheel_lug014",
+    "Wheel_RL__Centre_cap002",
+    "Door_FL__Handle_pocket",
+    "Wheel_FR__Wheel_lug004",
+    "Wheel_FR__Rim_barrel_shadow001",
+    "Door_FL__Belt_chrome",
+    "Wheel_FR__Brake_drilling",
+    "Door_FL__Shut_line001",
+    "Wheel_RL__Brake_disc002",
+    "Door_RR__Rear_door_glass_seal001",
+    "Door_RL__Shut_line002",
+    "Wheel_RL__Spoke028",
+    "Door_FR__Door_strip001",
+    "SteeringWheel__V8_SteeringSpoke001",
+    "Wheel_FL__Spoke007",
+    "Wheel_FR__Hub001",
+    "SteeringWheel__V8_SteeringRim",
+    "Wheel_RL__Spoke020",
+    "Door_RR__V8_DoorSpeaker_DoorRearR",
+    "Door_FR__Handle_pocket001",
+    "Glass__Detail_HeadlampROuter_PositionBulb",
+    "Wheel_RR__Spoke030",
+    "Body__AI11_clear_band",
+    "Wheel_RL__Spoke027",
+    "Wheel_RR__Hub003",
+    "Wheel_RL__Spoke026",
+    "Wheel_RR__Wheel_lug024",
+    "Door_FR__Mirror_glass001",
+    "Body__AI11_optical_rib006",
+    "Wheel_FL__Wheel_lug015",
+    "SteeringWheel__V8_SteeringSpoke002",
+    "Wheel_RL__Wheel_lug033",
+    "Door_FL__Shut_line003",
+    "Glass__Detail_HeadlampLInner_Cover",
+    "Wheel_FL__Spoke003",
+    "Glass__Detail_HeadlampLOuter_Cover",
+    "Wheel_FL__Wheel_lug012",
+    "Body__AI11_optical_rib009",
+    "Glass__Detail_HeadlampROuter_ProjectorLens",
+    "Glass__Detail_FogR_Lens",
+    "DoorGlass_FL__Front_door_glass",
+    "SteeringWheel__V8_SteeringSpoke",
+    "Wheel_FR__Spoke010",
+    "Door_FL__V8_DoorWood_DoorFrontL",
+    "Wheel_RR__Spoke037",
+    "Body__AI11_optical_rib007",
+    "Door_RR__Handle_pocket003",
+    "Door_FR__Handle_pull",
+    "Body__Wheel-well_liner001",
+    "Door_FL__Mirror_arm",
+    "Door_FR__V8_DoorSpeaker_DoorFrontR",
+    "Door_RL__V8_DoorLatch_DoorRearL",
+    "Door_RL__Quarter_glass_seal",
+    "Wheel_FL__Wheel_lug010",
+    "Door_RR__Body_skin",
+    "Door_FR__Mirror_chrome001",
+    "Door_RL__Handle_pocket002",
+    "Wheel_RR__Centre_cap003",
+    "Wheel_RL__Wheel_lug038",
+    "Body__AI11_optical_rib011",
+    "Wheel_FR__Wheel_lug",
+    "Body__AI11_optical_rib001",
+    "Door_FL__V8_DoorSpeaker_DoorFrontL",
+    "Wheel_RR__Wheel_lug023",
+    "Body__Wheel-well_liner",
+    "DoorGlass_RL__Quarter_glass",
+    "Wheel_RR__Rim_lip003",
+    "Door_RR__V8_DoorLatch_DoorRearR",
+    "Glass__Detail_HeadlampRInner_Cover",
+    "Door_FL__V8_DoorLatch_DoorFrontL",
+    "Wheel_RR__Wheel_lug028",
+    "Glass__Detail_HeadlampLInner_Bulb",
+    "Wheel_RL__Wheel_lug035",
+    "Door_FL__Mirror_head",
+    "Door_FR__V8_DoorLatch_DoorFrontR",
+    "Body__AI11_optical_rib004",
+    "Door_FR__Shut_line004",
+    "Wheel_FL__Wheel_lug011",
+    "Wheel_RR__Tire003",
+    "Door_FR__Shut_line007",
+    "Wheel_FR__Wheel_lug008",
+    "SteeringWheel__V8_SteeringHub",
+    "Wheel_FR__Spoke011",
+    "Door_RL__V8_DoorSpeaker_DoorRearL",
+    "Wheel_FR__Spoke017",
+    "Wheel_FR__Wheel_lug006",
+    "Wheel_RR__Spoke032",
+    "Wheel_FL__Rim_lip",
+    "Wheel_FR__Spoke019",
+    "Door_FL__DLO_rubber",
+    "Door_FL__V8_DoorArmrest_DoorFrontL",
+    "Wheel_RL__Wheel_lug032",
+    "Door_RL__Black_pillar_trim002",
+    "DoorGlass_RR__Quarter_glass001",
+    "Door_FL__DLO_chrome",
+    "Wheel_FR__Wheel_lug005",
+    "DoorGlass_RL__Rear_door_glass",
+    "Door_RR__V8_DoorWood_DoorRearR",
+    "Door_FR__Mirror_arm001",
+    "Door_FR__V8_DoorArmrest_DoorFrontR",
+    "Body__AI11_optical_rib005",
+    "Wheel_FL__Wheel_lug016",
+    "Wheel_FL__Rim_barrel_shadow",
+    "Wheel_FR__Centre_cap001",
+    "Door_FL__Body_skin",
+    "Wheel_FR__Spoke014",
+    "Wheel_FR__Spoke015",
+    "Wheel_FR__Rim_lip001",
+    "Door_RR__V8_DoorArmrest_DoorRearR",
+    "Wheel_RR__Spoke031",
+    "Wheel_RR__Spoke036",
+    "Door_FR__Mirror_head001",
+    "Body__AI11_optical_rib008",
+    "Wheel_FL__Spoke008",
+    "Wheel_RL__Wheel_lug030",
+    "Glass__Detail_HeadlampROuter_Cover",
+    "Wheel_RL__Spoke022",
+    "Door_FL__Mirror_chrome",
+    "Door_RL__Body_skin",
+    "Door_FL__Front_door_glass_seal",
+    "Wheel_RL__Wheel_lug039",
+    "Door_RL__V8_DoorCard_DoorRearL",
+    "Wheel_RL__Wheel_lug034",
+    "Wheel_RR__Spoke039",
+    "Door_FR__Belt_chrome001",
+    "Wheel_FR__Spoke016",
+    "Wheel_FR__Wheel_lug007",
+    "Door_FR__V8_DoorCard_DoorFrontR",
+    "Door_RL__Shut_line001",
+    "Glass__Detail_HeadlampLOuter_PositionBulb",
+    "Body__Wheel-well_liner003",
+    "Wheel_FL__Spoke005",
+    "Door_FR__DLO_chrome001",
+    "Wheel_RL__Brake_drilling003",
+    "Wheel_FL__Spoke006",
+    "Door_RR__Shut_line005",
+    "Door_RR__Handle_pull002",
+    "Wheel_FL__Hub",
+    "Wheel_RL__Wheel_lug036",
+    "Wheel_FR__Wheel_lug009",
+    "Wheel_FL__Centre_cap",
+    "Wheel_RR__Wheel_lug027",
+    "Door_RL__Door_strip",
+    "Wheel_FR__Wheel_lug001",
+    "Wheel_RR__Wheel_lug020",
+    "Door_RL__DLO_chrome",
+    "Door_RR__Door_strip001",
+    "Glass__Detail_FogL_Lens",
+    "Wheel_FL__Spoke009",
+    "Body__Wheel-well_liner002",
+    "Wheel_RR__Wheel_lug022",
+    "Wheel_RL__Spoke021",
+    "Body__AI11_clear_band002",
+    "Body__AI11_optical_rib003",
+    "Glass__Rear_screen",
+    "Door_FR__Shut_line005",
+    "Wheel_RL__Spoke029",
+    "Door_RR__DLO_chrome001",
+    "Body__AI11_optical_rib002",
+    "Glass__Windshield",
+    "Wheel_RR__Wheel_lug025",
+    "Wheel_FL__Spoke004",
+    "Door_FR__V8_DoorWood_DoorFrontR",
+    "Door_RL__Handle_pull003",
+    "Door_FL__Handle_pull001",
+    "Door_FR__Body_skin",
+    "Body__AI11_TailLens_1",
+    "Door_FR__DLO_rubber001",
+    "Wheel_RL__Rim_lip002",
+    "Door_RR__Quarter_glass_seal001",
+    "Wheel_RR__Spoke038",
+    "Door_FL__Mirror_glass",
+    "Door_RR__Shut_line006",
+    "Wheel_FL__Spoke",
+    "Door_RR__Belt_chrome001",
+    "Wheel_RR__Spoke035",
+    "Wheel_RR__Rim_barrel_shadow003",
+    "Door_RR__Shut_line007",
+    "Body__AI11_TailLens_-1",
+    "Wheel_FL__Wheel_lug013",
+    "Door_RL__Belt_chrome",
+    "Wheel_FR__Wheel_lug002",
+    "Wheel_RR__Spoke033",
+    "Wheel_RL__Wheel_lug031",
+    "Wheel_FR__Spoke012",
+    "Wheel_RL__Wheel_lug037",
+    "Door_RL__V8_DoorArmrest_DoorRearL",
+    "Wheel_RL__Spoke023",
+    "Door_RL__DLO_rubber",
+    "Wheel_FL__Wheel_lug017",
+    "Wheel_RR__Spoke034"
+  ],
+  "merged": [
+    {
+      "node": "StaticOpaque_0",
+      "sourceNodes": [
+        "Body__V8_GaugeTick069",
+        "Body__V8_Tachometer_Units",
+        "Body__V8_GaugeTick029",
+        "Body__V8_GaugeTick057",
+        "Body__V8_Speedometer_Number006",
+        "Body__V8_GaugeTick032",
+        "Body__V8_GaugeTick020",
+        "Body__V8_GaugeTick028",
+        "Body__V8_Tachometer_Number003",
+        "Body__V8_Speedometer_Units",
+        "Body__V8_GaugeTick078",
+        "Body__V8_GaugeTick074",
+        "Body__V8_GaugeTick079",
+        "Body__V8_GaugeTick012",
+        "Body__V8_GaugeTick046",
+        "Body__V8_GaugeTick064",
+        "Body__V8_GaugeTick013",
+        "Body__V8_GaugeTick056",
+        "Body__V8_GaugeTick039",
+        "Body__V8_GaugeTick040",
+        "Body__V8_GaugeTick052",
+        "Body__V8_GaugeTick067",
+        "Body__V8_GaugeTick076",
+        "Body__V8_GaugeTick071",
+        "Body__V8_GaugeTick001",
+        "Body__V8_GaugeTick075",
+        "Body__V8_GaugeTick081",
+        "Body__V8_GaugeTick004",
+        "Body__V8_Tachometer_Number",
+        "Body__V8_GaugeTick007",
+        "Body__V8_GaugeTick054",
+        "Body__V8_GaugeTick063",
+        "Body__V8_GaugeTick021",
+        "Body__V8_GaugeTick027",
+        "Body__V8_GaugeTick002",
+        "Body__V8_GaugeTick050",
+        "Body__V8_GaugeTick042",
+        "Body__V8_GaugeTick009",
+        "Body__V8_GaugeTick038",
+        "Body__V8_GaugeTick080",
+        "Body__V8_GaugeTick070",
+        "Body__V8_GaugeTick031",
+        "Body__V8_GaugeTick062",
+        "Body__V8_GaugeTick022",
+        "Body__V8_Speedometer_Number",
+        "Body__V8_Tachometer_Number006",
+        "Body__V8_Tachometer_Number008",
+        "Body__V8_GaugeTick036",
+        "Body__V8_GaugeTick073",
+        "Body__V8_GaugeTick059",
+        "Body__V8_GaugeTick030",
+        "Body__V8_GaugeTick019",
+        "Body__V8_Speedometer_Number003",
+        "Body__V8_Speedometer_Number002",
+        "Body__V8_GaugeTick048",
+        "Body__V8_GaugeTick047",
+        "Body__V8_GaugeTick055",
+        "Body__V8_Tachometer_Number001",
+        "Body__V8_GaugeTick008",
+        "Body__V8_GaugeTick065",
+        "Body__V8_GaugeTick043",
+        "Body__V8_GaugeTick058",
+        "Body__V8_GaugeTick060",
+        "Body__V8_GaugeTick003",
+        "Body__V8_GaugeTick072",
+        "Body__V8_GaugeTick025",
+        "Body__V8_GaugeTick051",
+        "Body__V8_GaugeTick037",
+        "Body__V8_Tachometer_Number004",
+        "Body__V8_GaugeTick044",
+        "Body__V8_GaugeTick035",
+        "Body__V8_GaugeTick077",
+        "Body__V8_GaugeTick010",
+        "Body__V8_GaugeTick045",
+        "Body__V8_GaugeTick006",
+        "Body__V8_GaugeTick061",
+        "Body__V8_GaugeTick016",
+        "Body__V8_Speedometer_Number004",
+        "Body__V8_Tachometer_Number007",
+        "Body__V8_GaugeTick041",
+        "Body__V8_GaugeTick018",
+        "Body__V8_GaugeTick034",
+        "Body__V8_GaugeTick023",
+        "Body__V8_GaugeTick033",
+        "Body__V8_GaugeTick015",
+        "Body__V8_Speedometer_Number005",
+        "Body__V8_GaugeTick014",
+        "Body__V8_GaugeTick011",
+        "Body__V8_GaugeTick024",
+        "Body__V8_Speedometer_Number001",
+        "Body__V8_GaugeTick049",
+        "Body__V8_GaugeTick017",
+        "Body__V8_GaugeTick066",
+        "Body__V8_Tachometer_Number005",
+        "Body__V8_GaugeTick068",
+        "Body__V8_GaugeTick005",
+        "Body__V8_Tachometer_Number002",
+        "Body__V8_GaugeTick026",
+        "Body__V8_GaugeTick053",
+        "Body__V8_GaugeTick"
+      ]
+    },
+    {
+      "node": "StaticOpaque_1",
+      "sourceNodes": [
+        "Body__V8_SeatBack_FrontL",
+        "Body__V8_SeatCushion_RearL",
+        "Body__V8_SeatCushion_FrontL",
+        "Body__V8_SeatBack_RearL",
+        "Body__V8_SeatBolster002",
+        "Body__V8_Headrest_RearR",
+        "Body__V8_Headrest_RearL",
+        "Body__V8_SeatBolster003",
+        "Body__V8_Headrest_FrontL",
+        "Body__V8_SeatBack_FrontR",
+        "Body__V8_SeatBolster004",
+        "Body__V8_SeatBack_RearR",
+        "Body__V8_SeatBolster001",
+        "Body__V8_SeatBolster005",
+        "Body__V8_SeatBolster",
+        "Body__V8_SeatBolster007",
+        "Body__V8_SeatBolster006",
+        "Body__V8_SeatCushion_FrontR",
+        "Body__V8_SeatCushion_RearR",
+        "Body__V8_Headrest_FrontR"
+      ]
+    },
+    {
+      "node": "StaticOpaque_2",
+      "sourceNodes": [
+        "Body__V8_SeatSeam009",
+        "Body__V8_CenterConsole",
+        "Body__V8_NavigationScreen",
+        "Body__V8_SeatSeam004",
+        "Body__V8_CabinFloor",
+        "Body__V8_SeatSeam011",
+        "Body__V8_SeatSeam002",
+        "Body__V8_SeatSeam007",
+        "Body__V8_SeatSeam001",
+        "Body__V8_SeatSeam005",
+        "Body__V8_SeatSeam006",
+        "Body__V8_SeatSeam013",
+        "Body__V8_SeatSeam010",
+        "Body__V8_SeatSeam014",
+        "GearLever__V8_SelectorKnob",
+        "Body__V8_SeatSeam008",
+        "Body__V8_SeatSeam",
+        "Body__V8_SeatSeam003",
+        "Body__V8_SeatSeam012",
+        "Body__V8_SeatSeam015"
+      ]
+    },
+    {
+      "node": "StaticOpaque_3",
+      "sourceNodes": [
+        "Body__Detail_HeadlampROuter_TurnInsert",
+        "Body__Detail_HeadlampLOuter_TurnInsert"
+      ]
+    },
+    {
+      "node": "StaticOpaque_4",
+      "sourceNodes": [
+        "Body__Bumper_chrome_blade001",
+        "Body__Bumper_chrome_blade",
+        "Body__DLO_chrome001",
+        "Body__DLO_chrome",
+        "Body__Boot_handle_chrome"
+      ]
+    },
+    {
+      "node": "StaticOpaque_5",
+      "sourceNodes": [
+        "Body__Detail_HeadlampLOuter_Seal",
+        "Body__Detail_HeadlampLInner_Seal",
+        "Body__Detail_HeadlampROuter_Seal",
+        "Body__Detail_HeadlampRInner_Seal"
+      ]
+    },
+    {
+      "node": "StaticOpaque_6",
+      "sourceNodes": [
+        "Caliper_RR__Caliper003",
+        "Caliper_FR__Caliper001",
+        "Caliper_FL__Caliper",
+        "Caliper_RL__Caliper002"
+      ]
+    },
+    {
+      "node": "StaticOpaque_7",
+      "sourceNodes": [
+        "Body__Boot_lip_spoiler",
+        "Body__Body_skin",
+        "Body__Rolled_fender_lip003",
+        "Body__Rolled_fender_lip001",
+        "Body__Rolled_fender_lip002",
+        "Body__Rolled_fender_lip"
+      ]
+    },
+    {
+      "node": "StaticOpaque_8",
+      "sourceNodes": [
+        "Body__Trunk_shut_line001",
+        "Body__Bonnet_cowl_seal",
+        "Body__Boot_lid_seal",
+        "Body__Bonnet_shut_line001",
+        "Body__Bonnet_shut_line",
+        "Body__Trunk_shut_line"
+      ]
+    },
+    {
+      "node": "StaticOpaque_9",
+      "sourceNodes": [
+        "Body__Detail_HeadlampRInner_Housing",
+        "Body__Detail_HeadlampLInner_BulbBase",
+        "Body__Detail_HeadlampLOuter_ProjectorBarrel",
+        "Body__Detail_HeadlampLOuter_Housing",
+        "Body__Detail_HeadlampROuter_Housing",
+        "Body__Detail_HeadlampROuter_ProjectorBarrel",
+        "Body__Detail_HeadlampRInner_BulbBase",
+        "Body__Detail_HeadlampLInner_Housing"
+      ]
+    },
+    {
+      "node": "StaticOpaque_10",
+      "sourceNodes": [
+        "Body__Detail_FogR_Reflector",
+        "Body__Detail_FogL_Reflector"
+      ]
+    },
+    {
+      "node": "StaticOpaque_11",
+      "sourceNodes": [
+        "Body__AI11_exhaust_darkness",
+        "Body__Arch_backing",
+        "Body__AI11_exhaust_darkness003",
+        "Body__AI11_lower_valance",
+        "Body__AI11_tail_seal001",
+        "Body__Arch_backing001",
+        "Body__Arch_backing002",
+        "Body__AI11_exhaust_darkness002",
+        "Body__AI11_exhaust_darkness001",
+        "Body__Underbody",
+        "Body__AI11_tail_seal",
+        "Body__Arch_backing003"
+      ]
+    },
+    {
+      "node": "StaticOpaque_12",
+      "sourceNodes": [
+        "Body__Detail_HeadlampLOuter_BowlRim",
+        "Body__Detail_HeadlampRInner_StepRing",
+        "Body__Detail_HeadlampRInner_BowlRim",
+        "Body__Detail_HeadlampRInner_CapStalk",
+        "Body__Detail_HeadlampLInner_StepRing",
+        "Body__Detail_HeadlampLInner_CapStalk",
+        "Body__Detail_HeadlampLInner_BowlRim",
+        "Body__Detail_HeadlampROuter_BowlRim"
+      ]
+    },
+    {
+      "node": "StaticOpaque_13",
+      "sourceNodes": [
+        "Body__Detail_HeadlampRInner_Reflector",
+        "Body__Detail_HeadlampLOuter_PositionCup",
+        "Body__Detail_HeadlampRInner_BulbCap",
+        "Body__Detail_HeadlampLInner_BulbCap",
+        "Body__Detail_HeadlampLOuter_ProjectorShroud",
+        "Body__Detail_HeadlampROuter_PositionCup",
+        "Body__Detail_HeadlampLOuter_Reflector",
+        "Body__Detail_HeadlampROuter_ProjectorShroud",
+        "Body__Detail_HeadlampLInner_Reflector",
+        "Body__Detail_HeadlampROuter_Reflector"
+      ]
+    },
+    {
+      "node": "StaticOpaque_14",
+      "sourceNodes": [
+        "Body__Detail_HeadlampROuter_Collar",
+        "Body__Detail_HeadlampRInner_Collar",
+        "Body__Detail_HeadlampLOuter_Collar",
+        "Body__Detail_HeadlampROuter_ProjectorShield",
+        "Body__Detail_HeadlampLOuter_ProjectorShield",
+        "Body__Detail_HeadlampLInner_Collar"
+      ]
+    },
+    {
+      "node": "StaticOpaque_15",
+      "sourceNodes": [
+        "GearLever__V8_SelectorStem",
+        "Body__V8_Pedal",
+        "Body__V8_PRNDGate",
+        "Body__V8_Pedal001",
+        "Body__V8_Speedometer_Bezel",
+        "Body__V8_Tachometer_Bezel"
+      ]
+    },
+    {
+      "node": "StaticOpaque_16",
+      "sourceNodes": [
+        "Body__Detail_Intake_MeshLattice",
+        "Body__Detail_FogL_MeshLattice",
+        "Body__Detail_FogR_MeshLattice"
+      ]
+    },
+    {
+      "node": "StaticOpaque_17",
+      "sourceNodes": [
+        "Body__Black_pillar_trim",
+        "Body__Black_pillar_trim001"
+      ]
+    },
+    {
+      "node": "StaticOpaque_18",
+      "sourceNodes": [
+        "Body__Detail_Grille_Backing",
+        "Body__Detail_FogR_Recess",
+        "Body__Detail_FogL_Recess",
+        "Body__Detail_Intake_Backing"
+      ]
+    },
+    {
+      "node": "StaticOpaque_19",
+      "sourceNodes": [
+        "Body__AI11_hollow_exhaust003",
+        "Body__AI11_hollow_exhaust",
+        "Body__AI11_hollow_exhaust001",
+        "Body__AI11_hollow_exhaust002"
+      ]
+    },
+    {
+      "node": "StaticOpaque_20",
+      "sourceNodes": [
+        "Body__Windshield_seal",
+        "Body__Rear_screen_seal",
+        "Body__DLO_rubber",
+        "Body__DLO_rubber001"
+      ]
+    },
+    {
+      "node": "StaticOpaque_21",
+      "sourceNodes": [
+        "Body__Detail_HeadlampROuter_ProjectorRing",
+        "Body__Detail_HeadlampLOuter_ProjectorRing"
+      ]
+    },
+    {
+      "node": "StaticOpaque_22",
+      "sourceNodes": [
+        "Body__V8_DashWood",
+        "Body__V8_ConsoleWood"
+      ]
+    },
+    {
+      "node": "StaticOpaque_23",
+      "sourceNodes": [
+        "Body__V8_Tachometer_Face",
+        "Body__V8_Speedometer_Face"
+      ]
+    },
+    {
+      "node": "StaticOpaque_24",
+      "sourceNodes": [
+        "Body__Detail_FogL_Surround",
+        "Body__Detail_FogR_Surround",
+        "Body__Detail_Intake_Surround"
+      ]
+    },
+    {
+      "node": "StaticOpaque_25",
+      "sourceNodes": [
+        "Body__Detail_Grille_FrameOuter",
+        "Body__Detail_FogR_Ring",
+        "Body__Detail_FogL_Ring"
+      ]
+    },
+    {
+      "node": "StaticOpaque_26",
+      "sourceNodes": [
+        "Body__V8_Dashboard",
+        "Body__V8_CenterStack"
+      ]
+    },
+    {
+      "node": "StaticOpaque_27",
+      "sourceNodes": [
+        "RPMNeedle__V8_Tachometer_Needle",
+        "SpeedNeedle__V8_Speedometer_Needle"
+      ]
+    },
+    {
+      "node": "StaticOpaque_28",
+      "sourceNodes": [
+        "Body__AI11_clear_band003",
+        "Body__AI11_clear_band001"
+      ]
+    }
+  ],
+  "note": "Centimetres retained; runtime root scale remains .01. Exact indexing only; no decimation. All transparent and door/glass/wheel/brake nodes retained."
+}

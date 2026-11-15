@@ -1,0 +1,96 @@
+[
+  {
+    "id": "parallel-colloquial",
+    "text": "前排玻璃落到一半，后排玻璃收好",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "items": [
+        {
+          "clause": "前排玻璃落到一半",
+          "intent": {
+            "type": "command",
+            "target": {
+              "source": "explicit",
+              "ids": [
+                "FL",
+                "FR"
+              ],
+              "candidates": []
+            },
+            "operation": {
+              "kind": "absolute",
+              "value": 0.5
+            },
+            "missing": null
+          }
+        },
+        {
+          "clause": "后排玻璃收好",
+          "intent": {
+            "type": "command",
+            "target": {
+              "source": "explicit",
+              "ids": [
+                "RL",
+                "RR"
+              ],
+              "candidates": []
+            },
+            "operation": {
+              "kind": "absolute",
+              "value": 0
+            },
+            "missing": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "parallel-percentages",
+    "text": "左前玻璃开到30%，右后玻璃开到70%",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "items": [
+        {
+          "clause": "左前玻璃开到30%",
+          "intent": {
+            "type": "command",
+            "target": {
+              "source": "explicit",
+              "ids": [
+                "FL"
+              ],
+              "candidates": []
+            },
+            "operation": {
+              "kind": "absolute",
+              "value": 0.3
+            },
+            "missing": null
+          }
+        },
+        {
+          "clause": "右后玻璃开到70%",
+          "intent": {
+            "type": "command",
+            "target": {
+              "source": "explicit",
+              "ids": [
+                "RR"
+              ],
+              "candidates": []
+            },
+            "operation": {
+              "kind": "absolute",
+              "value": 0.7
+            },
+            "missing": null
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,853 @@
+{
+  "generatedAt": "2026-11-15T17:18:18.588Z",
+  "privateHistoryIncluded": false,
+  "authoringGeometryIncluded": false,
+  "configuredCredentialsAbsent": true,
+  "excluded": [
+    "model-review/V8 Executive/v8_executive_01/V8-Executive.fbx",
+    "model-review/v8-working/door-cavity.patch.json",
+    "PUBLIC-SOURCE-MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 147,
+      "sha256": "f000102bd4c1a767896b393391d11934a6c1deba7d610c6d36c6686514d7222a",
+      "mode": 420
+    },
+    {
+      "path": ".env.example",
+      "bytes": 278,
+      "sha256": "fe82a244e923c5685955df1fdfb897a3f94980399774511c9b6a92e11899d263",
+      "mode": 420
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 626,
+      "sha256": "4a3031c34fce2a9a6050904732168abb96810631856ab2d14ac8eddb571c626e",
+      "mode": 420
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 109,
+      "sha256": "1eccadcc863358fedabb58a66d339b7c10addc2c1b3971f78a79d454eb2b6f1c",
+      "mode": 420
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 8,
+      "sha256": "08062faf0d7a2d22f5d7933c50e975dd1527034275597be7c1b3b9fd2b9d079a",
+      "mode": 420
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "bytes": 39,
+      "sha256": "70d56b550e796e3ea92922763ae03037a1a94596fda9d737982c75f6a20e88dd",
+      "mode": 420
+    },
+    {
+      "path": ".vscode/settings.json",
+      "bytes": 55,
+      "sha256": "28ce07d6391a01b1a54ee291ebf277a8db88066d74b7133f835bc7e670471d64",
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "bytes": 15643,
+      "sha256": "b19ea8a66c7c21f85e089a789ebe0abcea0191657bc4bc3e5136e731a0352a1f",
+      "mode": 420
+    },
+    {
+      "path": "config.md",
+      "bytes": 10026,
+      "sha256": "04db9473836ec277fd278546bda55eebf8f675e0bcbcbdbd285023eee05e6fa0",
+      "mode": 420
+    },
+    {
+      "path": "deploy/aispeech.service.example",
+      "bytes": 505,
+      "sha256": "4396ff322363b127cd24d5711adb45d1188d156691a88305ea1aae9dfce361db",
+      "mode": 420
+    },
+    {
+      "path": "deploy/backend.env.example",
+      "bytes": 683,
+      "sha256": "24588ff40bff99a2e1761265737c9a3a092a1bd206ececee46006f08743703ea",
+      "mode": 420
+    },
+    {
+      "path": "deploy/nginx.conf.example",
+      "bytes": 2117,
+      "sha256": "9b14ec86d36f16b65d8f35ce85275aa0a92a0fe7674bd7475a2b2ac89eb30fbb",
+      "mode": 420
+    },
+    {
+      "path": "deploy/scf_bootstrap",
+      "bytes": 125,
+      "sha256": "fc8a881cdd09cb4a828f414feb78fb75d87e76a53879c6f943b0c41a8b210db9",
+      "mode": 420
+    },
+    {
+      "path": "docs/V8-motion-review.md",
+      "bytes": 5170,
+      "sha256": "9b7772016e0a2d530aa6e2a5ea29845fe87f960d7caafa816424aa23b960f9f5",
+      "mode": 420
+    },
+    {
+      "path": "docs/V8-preview.md",
+      "bytes": 4228,
+      "sha256": "a8b164c9f67402ef25c6e6a4cfe9448b43cc975352ee95d7c5b61ac091306eab",
+      "mode": 420
+    },
+    {
+      "path": "docs/acceptance-and-demo.md",
+      "bytes": 9217,
+      "sha256": "fb88ede4ac70514a6992088ee666b21a72b9c023b10186d5ebac00407e9fdb65",
+      "mode": 420
+    },
+    {
+      "path": "docs/continuous-dialogue.md",
+      "bytes": 6593,
+      "sha256": "220b1d253a69b4812f462983e76089a190595624ec16a07cba86301a8c82bf74",
+      "mode": 420
+    },
+    {
+      "path": "docs/deployment-linux.md",
+      "bytes": 4999,
+      "sha256": "4e453076248ce9760116b182be31bb0416c7f12fb35aed88f6dead04d6420d9d",
+      "mode": 420
+    },
+    {
+      "path": "docs/github-publishing.md",
+      "bytes": 7287,
+      "sha256": "f011fc45ecb6b71e79f8359e7e0a6b28b3060ef5fca098d2f83d2b11ba256a24",
+      "mode": 420
+    },
+    {
+      "path": "docs/hosted-backend-plan.md",
+      "bytes": 9184,
+      "sha256": "f8de9cdf6084cd2acde534d192e0fb284f0bab2f97c13a644423b333dbd99c59",
+      "mode": 420
+    },
+    {
+      "path": "docs/intent-integration.md",
+      "bytes": 24525,
+      "sha256": "359dfa2184eacd8849fedb064025994fd09d34c2c5180321c629325339a69446",
+      "mode": 420
+    },
+    {
+      "path": "docs/mobile-testing.md",
+      "bytes": 5910,
+      "sha256": "fe606e71264fe7fd4660ef3a13aff588179a28ac45c0c4fcdb8a3c195b38f2b1",
+      "mode": 420
+    },
+    {
+      "path": "docs/performance-baseline.md",
+      "bytes": 8916,
+      "sha256": "0cb085d904a2f49eafb572e79e3e1227a2742c86167b076aac19bbb5542fcdcc",
+      "mode": 420
+    },
+    {
+      "path": "docs/performance-runtime.md",
+      "bytes": 7921,
+      "sha256": "79add4124473c4b7d97c1265f2b85758c92a94fe4eab620f7abc48d7064dbcdb",
+      "mode": 420
+    },
+    {
+      "path": "docs/tencent-international-asr.md",
+      "bytes": 3834,
+      "sha256": "0731b5c7d070fc1f8ef0e9a44f9bba7c5bc22a435748207b7bee550dd920f02f",
+      "mode": 420
+    },
+    {
+      "path": "docs/tencent-scf-deployment.md",
+      "bytes": 4281,
+      "sha256": "9a0132ca82d50ae511cc5e805a51e5df2627bbd91e819f8497603455097fb45d",
+      "mode": 420
+    },
+    {
+      "path": "docs/v8-preview.png",
+      "bytes": 81157,
+      "sha256": "b569b07aac7f2cdcb53557a5bc8d0be07d35c924d99daae688948f40af39e9ac",
+      "mode": 420
+    },
+    {
+      "path": "docs/voice-control-preview.png",
+      "bytes": 120316,
+      "sha256": "19676485ea6ff91e15ec2f08a620a12459a9b78f2e1fa80402c2a527813dd35a",
+      "mode": 420
+    },
+    {
+      "path": "docs/voice-control.md",
+      "bytes": 5165,
+      "sha256": "e6b8f8643e78d251216077704624538e1a441b864d22f83221f7abc092c75547",
+      "mode": 420
+    },
+    {
+      "path": "index.html",
+      "bytes": 312,
+      "sha256": "ae282a095e4a3cd11f36dcc80f8b6fd67e7630437b19692904ccd40894bf56df",
+      "mode": 420
+    },
+    {
+      "path": "licenses/V8-MODEL-LICENSE.txt",
+      "bytes": 1326,
+      "sha256": "b00e9639115772001e7168da305bfea177300dd127b54ce4917b2fda76a37b0b",
+      "mode": 420
+    },
+    {
+      "path": "licenses/V8-MODEL-NOTICE.txt",
+      "bytes": 562,
+      "sha256": "b85dfbdb5c16a5dfd4191f39dd15c3c0e9169c901a0b9ccd6e1f6dde01517dd4",
+      "mode": 420
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/LICENSE.txt",
+      "bytes": 1326,
+      "sha256": "b00e9639115772001e7168da305bfea177300dd127b54ce4917b2fda76a37b0b",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/Previews/front34.png",
+      "bytes": 2153100,
+      "sha256": "fa481f7f7286f4a1e4af9aad359fb80d26b84429fe3dfcf0461cd4a3b1c3254a",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/Previews/rear34.png",
+      "bytes": 2141128,
+      "sha256": "11b80623087a54adebf60870e0a1588b802fc7e6d4f8a0a432e305a83c4ca99b",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/Previews/side.png",
+      "bytes": 2100109,
+      "sha256": "1eea794070bebdf3cbca5add30f73ec59782e3e38c7f185d04f33558b3a215f8",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/README.txt",
+      "bytes": 1569,
+      "sha256": "f756e91fe8105e8de352066bb8845999dffc9e2a215bad91efabfa17dfe1a30b",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/SHA256SUMS.txt",
+      "bytes": 3140,
+      "sha256": "8fd23ae259723048381bb90d4383605ff987545b0313d5b5595a63bab0b891d1",
+      "mode": 436
+    },
+    {
+      "path": "model-review/V8 Executive/v8_executive_01/technical-details.json",
+      "bytes": 251,
+      "sha256": "f2a9f934d05d71cbc13f47c2ca606d3cc989d7ec2005f40dc07ce7b71ec27d39",
+      "mode": 436
+    },
+    {
+      "path": "model-review/v8-working/README.md",
+      "bytes": 1145,
+      "sha256": "dc7fa53fdfb09b633fc4216d7cb0e3ad395a398d730b696c50a2e8bcf6a41c78",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/baseline-collisions.json",
+      "bytes": 36031,
+      "sha256": "669b41a46243c632f9a01121f37c4b59ab7efe27f55e906989780c1b721d7fba",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/build-cavity.mjs",
+      "bytes": 4441,
+      "sha256": "ff5da0f2e9af51b05d8213f4fa67e565f5cd6887ee4460f08dff4addd45c5afc",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/check-motion.mjs",
+      "bytes": 2578,
+      "sha256": "df356af86f230d408b5ce7eeacd1bac668a1610cb055532291de2277a0cad957",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/after-front-half.png",
+      "bytes": 108555,
+      "sha256": "ae5b66d744bd1dd65ec609aed94a1a6df35f43cc209d25457eaa7bed05febeb3",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/after-front-inside.png",
+      "bytes": 108835,
+      "sha256": "ae30b52de687ebdbd6816622905058cf9326b48ca4bd79a6f32503069f0cd1cf",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/after-front-intersection.png",
+      "bytes": 118198,
+      "sha256": "2180d7f26ff6954cd6ce5013d04b7c1679891b8218201fa3a45389c7ea58e0c7",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/after-rear-inside.png",
+      "bytes": 96229,
+      "sha256": "4822c29d3ee7c66b7dd9d80532d0ec488b2c943cbdd6f8812895de37a141618d",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/before-front-inside.png",
+      "bytes": 112971,
+      "sha256": "1c5dbb0d315a3c733e22ef5ff59865fb39897060b77abf925eeae79291ebd643",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/before-front-intersection.png",
+      "bytes": 60855,
+      "sha256": "69fa55c460a032019b6aedbc96c7774b4348ec694293f98f8ce0852b2b6d4424",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/before-rear-inside.png",
+      "bytes": 101554,
+      "sha256": "93aec37c219472bcacc0886e44d61b6ff9d5dcb607a7d8999aee5b8f8f54de05",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/slow-left-25.png",
+      "bytes": 102127,
+      "sha256": "12b3097afa8b697f42d9391831fbef2a557038d6c160c09e2b7b6dd2c2e31678",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/slow-left-50.png",
+      "bytes": 102248,
+      "sha256": "16df03dcc589a63b8f735995f5bb9086c8f884d8310a747bbd8b34e74f3cb267",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/slow-left-76.png",
+      "bytes": 101707,
+      "sha256": "2512d15659166756cc241a20927c33258954aa1c227ecc6bf30686da98684eeb",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/evidence/slow-right-50.png",
+      "bytes": 100086,
+      "sha256": "1486981825ca066eee32802efce728ed75c5ccc04d31cc0d6b0982a7a937fd1a",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/fit.mjs",
+      "bytes": 3143,
+      "sha256": "9a6fbe14295694f9dfd49553a2b81df2e131095e20ffbdf9d4942d0b1fc62c8e",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/inspect.mjs",
+      "bytes": 1100,
+      "sha256": "545835146d7e1685728f4e01f5dfae283db600f190d85a7faf4aa9bd05bce5d7",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/mesh-check.mjs",
+      "bytes": 1442,
+      "sha256": "9c4a12c3cbc0b34b98e1ac08cb37a79fe306fe8c04988ac5b77766ee70b6372e",
+      "mode": 420
+    },
+    {
+      "path": "model-review/v8-working/original-motion.ts",
+      "bytes": 1807,
+      "sha256": "da05dc123cc24124fef4c683b10f40257f3d0c08274d889ad3a56ce0a543b2c1",
+      "mode": 420
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 60193,
+      "sha256": "87131e7b1b84d1ca08955cea988ca2b08a22aaf02d64397b1c35acceaaf9ed2f",
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "bytes": 1876,
+      "sha256": "6cab2cb4121d3889ee498731e44f06e465c33fe6fb4f3f9607187b237b60c253",
+      "mode": 420
+    },
+    {
+      "path": "public/licenses/V8-MODEL-LICENSE.txt",
+      "bytes": 1326,
+      "sha256": "b00e9639115772001e7168da305bfea177300dd127b54ce4917b2fda76a37b0b",
+      "mode": 420
+    },
+    {
+      "path": "public/licenses/V8-MODEL-NOTICE.txt",
+      "bytes": 562,
+      "sha256": "b85dfbdb5c16a5dfd4191f39dd15c3c0e9169c901a0b9ccd6e1f6dde01517dd4",
+      "mode": 420
+    },
+    {
+      "path": "public/models/v8-working.glb",
+      "bytes": 10450476,
+      "sha256": "a58854a568c22474101872c65fd644ee16ca37aa8762df7d993eedb038c70663",
+      "mode": 420
+    },
+    {
+      "path": "public/models/v8-working.glb.gz",
+      "bytes": 6077943,
+      "sha256": "4006168d7af1b119f687f2ce71ab0e58f0b79143ad80b6d55397269ace5ecf36",
+      "mode": 420
+    },
+    {
+      "path": "public/models/v8-working.manifest.json",
+      "bytes": 19814,
+      "sha256": "7ed67b1c373cde5a57f51fef1b37e810093977d7bcdf48a87ad2d1b36e61cb26",
+      "mode": 420
+    },
+    {
+      "path": "public/pcm-worklet.js",
+      "bytes": 1741,
+      "sha256": "50379d6af65c3d02e4330e3b8fe8cde00dfee65c81040ef8029ae39747725de7",
+      "mode": 420
+    },
+    {
+      "path": "render.yaml",
+      "bytes": 1014,
+      "sha256": "131e55c1d84b0a246978dc2cce293bc2d39f1953f3b3ffeb96b6e9cb8db262b4",
+      "mode": 420
+    },
+    {
+      "path": "scripts/batch.test.ts",
+      "bytes": 7124,
+      "sha256": "f820e8c8a99caf0efdabd4162a8fddd4cf7d2d882b45f0089f109335aea3dccf",
+      "mode": 420
+    },
+    {
+      "path": "scripts/build-v8-glb.mjs",
+      "bytes": 3891,
+      "sha256": "dc5c5ac725f63e37a870afa1736f38254d1003beaea1728353d68d9210d0ebcc",
+      "mode": 420
+    },
+    {
+      "path": "scripts/check-env.mjs",
+      "bytes": 2228,
+      "sha256": "b139330a9487c3d5cd7b90b8b4d635bb48c0eb4a7e7712bdf6229e7c0f200a34",
+      "mode": 420
+    },
+    {
+      "path": "scripts/check-mobile-entry.mjs",
+      "bytes": 2350,
+      "sha256": "2fb95d13fc306bbeaf27938afd6129e1643fdfbeef9f30b3763def9bc4781f1e",
+      "mode": 420
+    },
+    {
+      "path": "scripts/check-v8.mjs",
+      "bytes": 5066,
+      "sha256": "3a7ca39be411065824ff7b7497b3b841537a0336a770274fd61af6be23c70e76",
+      "mode": 420
+    },
+    {
+      "path": "scripts/commands.test.ts",
+      "bytes": 12207,
+      "sha256": "a260b9e8c677b22b44d5f5b5fbd050f569a89088b40512498db5bcf975fc5838",
+      "mode": 420
+    },
+    {
+      "path": "scripts/compress-glb.mjs",
+      "bytes": 2516,
+      "sha256": "35ab7b8a560a92ddc56ee77099da00acd9b09ea325a74a6a221bc3e26fd9e9f1",
+      "mode": 420
+    },
+    {
+      "path": "scripts/eval-intent.mjs",
+      "bytes": 5683,
+      "sha256": "3368f509db964538cae5d492d88dfc459e995b88f22b141c9ed2821c00561697",
+      "mode": 420
+    },
+    {
+      "path": "scripts/history.test.ts",
+      "bytes": 1165,
+      "sha256": "828702dff6e9d75290f87f6c7e9bf40bd6f9af67e1694054e58e15dd3ae97d39",
+      "mode": 420
+    },
+    {
+      "path": "scripts/intent-batch-cases.json",
+      "bytes": 2152,
+      "sha256": "269808f660c53e5093b62993682533edff7492467d3e52bb8ed5c4b8069cf612",
+      "mode": 420
+    },
+    {
+      "path": "scripts/intent-language-cases.json",
+      "bytes": 6738,
+      "sha256": "225194a1dd68614d282ee64de634279d80fceff4278976b193aa9276c27928e2",
+      "mode": 420
+    },
+    {
+      "path": "scripts/intent.test.ts",
+      "bytes": 15264,
+      "sha256": "33d6eaf65564e8edef0f15a12a2aec78db3cfccfe95229f7cdb04199501ceebd",
+      "mode": 420
+    },
+    {
+      "path": "scripts/mobile-cert.mjs",
+      "bytes": 3189,
+      "sha256": "3c83f4a3af306ab84bc6b175a9183e50f17e9a402b82b08701a450a6aae01fe6",
+      "mode": 420
+    },
+    {
+      "path": "scripts/mobile-config.mjs",
+      "bytes": 1142,
+      "sha256": "886ca6595979cc920602d8a95d1947f3dec079234f74a83898535c9c890bbaed",
+      "mode": 420
+    },
+    {
+      "path": "scripts/mobile-serve.mjs",
+      "bytes": 3083,
+      "sha256": "ec7e2775f6f28a878a54ed380518d40a6b180a7bea270298bc79938c7d6b6e23",
+      "mode": 420
+    },
+    {
+      "path": "scripts/package-delivery.mjs",
+      "bytes": 7587,
+      "sha256": "d0bf0fc67bfe5393260209f9fea5d9318e2e95eb9632469faa6f0d5a42ce9448",
+      "mode": 420
+    },
+    {
+      "path": "scripts/package-scf.mjs",
+      "bytes": 4128,
+      "sha256": "45b7653765e442735f1e32afc408c088815c6643aa5f250cb70234fb96e013d1",
+      "mode": 420
+    },
+    {
+      "path": "scripts/prepare-pages.mjs",
+      "bytes": 4458,
+      "sha256": "d6171b884d4aab17ca31c647246b514c91f6ed0b3bc81f466dff2b03a0c7d0d4",
+      "mode": 420
+    },
+    {
+      "path": "scripts/prepare-public-source.mjs",
+      "bytes": 3677,
+      "sha256": "feda12bb43c78e8c879adc87b27c4e7028900ab7d54b5eac7f562aae77af0a88",
+      "mode": 420
+    },
+    {
+      "path": "scripts/profile-v8.mjs",
+      "bytes": 5274,
+      "sha256": "2bf92807de047f22a247dec34c1b4ab60e271d17f281fac850245ed88418c22c",
+      "mode": 420
+    },
+    {
+      "path": "scripts/render-loop.test.ts",
+      "bytes": 2417,
+      "sha256": "c3c95f7eab82e243ce14a99309e8f8187f0e3e15ae189c9ea3bf365a8bf438fb",
+      "mode": 420
+    },
+    {
+      "path": "scripts/request-language.test.ts",
+      "bytes": 3320,
+      "sha256": "935487d7dcb305b6716a466701d955eb1de79c52daeab6dd9c69b2e6c965f9e7",
+      "mode": 420
+    },
+    {
+      "path": "scripts/serve-model-gzip.d.mts",
+      "bytes": 164,
+      "sha256": "492f4db9af01d8aaf7a7092c032f819474da9594d530e37d63a31d3879d92651",
+      "mode": 420
+    },
+    {
+      "path": "scripts/serve-model-gzip.mjs",
+      "bytes": 1142,
+      "sha256": "d02a9169df1bccc3a45793591cf5e24ed1197423b2553d678156c9e6e368a03b",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-asr.mjs",
+      "bytes": 3587,
+      "sha256": "92067144f840cc7692ad16ef59c61118d13a263bda5c800c243ecb08f2dca99d",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-audio.mjs",
+      "bytes": 1144,
+      "sha256": "63e63111e80d3a2a4ed4338dff2dfbb46fc7dbb5612c734be18675667ad619a4",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-cloud-backend.mjs",
+      "bytes": 4600,
+      "sha256": "ddd65d196149e06b577e3a3668b926f84c982f7780e8daf5c75e3d1024fa3cb1",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-commands.mjs",
+      "bytes": 568,
+      "sha256": "74c98de3ddc9f7d4f43add4d8b3a0f6f9308ae0f029a29a453402fb00c579114",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-intent-server.mjs",
+      "bytes": 17688,
+      "sha256": "cbfd046eadfe617942a5b0598e0e2655bd5e706a2dceb370c984ab7758268a70",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-microphone.mjs",
+      "bytes": 4709,
+      "sha256": "4f2d43be3480e022f1362f4c9d163d747aac7df65caee390cb5906afde361639",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-mobile-https.mjs",
+      "bytes": 4867,
+      "sha256": "27b5d0372729a09f8ce8d823cc3664e2a631815539229d4de7449420a26c593f",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-runtime-model.mjs",
+      "bytes": 2887,
+      "sha256": "d64ddb3b4bdb0a0ab408b3259f01271ba233e9a0159f5c06e8bcfa3f5237166c",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-v8-release.mjs",
+      "bytes": 5361,
+      "sha256": "9c4d58d446adc729321b4dc66c87374490a0319a605b1601d8aec7126d10586c",
+      "mode": 420
+    },
+    {
+      "path": "scripts/v8-release-lib.mjs",
+      "bytes": 2373,
+      "sha256": "c667dbd58ed4e5602f68c7d3ecd499bdc156f4c6482a89a52648ea561666771d",
+      "mode": 420
+    },
+    {
+      "path": "server/.env.example",
+      "bytes": 676,
+      "sha256": "0f15d46ca54680d82282980b84d250fee9a0649d23b4ddc92f03dc48e4d3de22",
+      "mode": 420
+    },
+    {
+      "path": "server/asr.mjs",
+      "bytes": 5993,
+      "sha256": "89cdbf51d4fbdd97b23a84751af509d379c70006e387c33fa4f7460443e4923e",
+      "mode": 420
+    },
+    {
+      "path": "server/config/asr-hotwords.json",
+      "bytes": 449,
+      "sha256": "a6c1d5407cc812b0d837ccf4574db048400f35b24fb4270fa8c51741a5651ff0",
+      "mode": 420
+    },
+    {
+      "path": "server/hotwords.mjs",
+      "bytes": 609,
+      "sha256": "06142ecaaa4f6da37a0f5f06120a5c3eda4c502fd586bc1bb23b90fbd406bc5c",
+      "mode": 420
+    },
+    {
+      "path": "server/intent.mjs",
+      "bytes": 17251,
+      "sha256": "7eb1c9f96728b23b879d41a841536cc2c6cd9acf8bb278d29725196f5d0fba00",
+      "mode": 420
+    },
+    {
+      "path": "server/public-access.mjs",
+      "bytes": 1437,
+      "sha256": "2dc3478ee6fe7427efe00a153178044c3493e2512356c9beedfca38dcf1ad2b1",
+      "mode": 420
+    },
+    {
+      "path": "shared/api-endpoints.d.mts",
+      "bytes": 133,
+      "sha256": "307a5d2f1414fa2249bb29faa9d610361f945e694a63bb4a6b9e7dade777a1f0",
+      "mode": 420
+    },
+    {
+      "path": "shared/api-endpoints.mjs",
+      "bytes": 790,
+      "sha256": "8f42b9809b66390e674e2eec22aaf3d1cf98f0c5ac544acb29298883716d4469",
+      "mode": 420
+    },
+    {
+      "path": "shared/batch.d.mts",
+      "bytes": 642,
+      "sha256": "d1d0f75c321ba44da44897c3f045a9c51ea8533d565f5c8ca22c05715e6463c7",
+      "mode": 420
+    },
+    {
+      "path": "shared/batch.mjs",
+      "bytes": 3091,
+      "sha256": "9c99d6842c6cefaa444fd35fbae0e7d0be42d84473ea8585ff24da4b5e418c66",
+      "mode": 420
+    },
+    {
+      "path": "shared/clauses.mjs",
+      "bytes": 1651,
+      "sha256": "8e408936025a5a8a541e641bb980f6fe3d103a7783854aef30be59b39490aa0b",
+      "mode": 420
+    },
+    {
+      "path": "shared/intent.d.mts",
+      "bytes": 1784,
+      "sha256": "9a09746d4de9e30e54d569967f9af066352ca364dc8be4bd981c476cc31180ce",
+      "mode": 420
+    },
+    {
+      "path": "shared/intent.mjs",
+      "bytes": 15015,
+      "sha256": "a9ad543f68e92da031378459e14d8bbfce43045741df412cc48d96258227eddf",
+      "mode": 420
+    },
+    {
+      "path": "shared/public-deployment.d.mts",
+      "bytes": 35,
+      "sha256": "53b065753a0cff6ec5a3a2f29a76306a574139bc4fe0c855e16f35b1ce2159fd",
+      "mode": 420
+    },
+    {
+      "path": "shared/public-deployment.mjs",
+      "bytes": 139,
+      "sha256": "52fb62310a7b7b27b9f7909edadd376e0a49804f50d0277414a7483a4f21f0bb",
+      "mode": 420
+    },
+    {
+      "path": "src/App.vue",
+      "bytes": 9274,
+      "sha256": "15a38c353ec76a2ee6c6e09bbe40520a2a3a8feb3cb0529b5f7992e298e15981",
+      "mode": 420
+    },
+    {
+      "path": "src/commands/intent-controller.ts",
+      "bytes": 5638,
+      "sha256": "d2a6f2b0038d42378497d8ee920dcab314e050ba4f25af7131757f17a059b581",
+      "mode": 420
+    },
+    {
+      "path": "src/commands/vehicle-command.ts",
+      "bytes": 9495,
+      "sha256": "ca881d8ed6d160f52fe98866596a8a333a4fc90e756ee5d068f86de57f153f8c",
+      "mode": 420
+    },
+    {
+      "path": "src/components/DemoTools.vue",
+      "bytes": 2375,
+      "sha256": "fe8850ec5482c8ffa2e7746c960b06f68a0090cd9e4858aa1c654b67ebc0ad14",
+      "mode": 420
+    },
+    {
+      "path": "src/components/OperationHistory.vue",
+      "bytes": 1600,
+      "sha256": "1f688530d1aa0c37b40bf423b22b443ba923aab23c3de3865bb9204d1bcd3921",
+      "mode": 420
+    },
+    {
+      "path": "src/components/VoiceControl.vue",
+      "bytes": 9164,
+      "sha256": "bdd4e689bce9241a59faf343a4221b56c4977dc07da1a9457e40250bd582a4ba",
+      "mode": 420
+    },
+    {
+      "path": "src/components/WindowControls.vue",
+      "bytes": 1646,
+      "sha256": "7bd9b61f01cfbbeaed91733ddc92ebbd6087ced913c23246a878ebcf6c81c985",
+      "mode": 420
+    },
+    {
+      "path": "src/config/runtime.ts",
+      "bytes": 540,
+      "sha256": "59a9caae99a015234f6ccee986b4a9f60ca215e71c41a5bcd4951e1695e334bf",
+      "mode": 420
+    },
+    {
+      "path": "src/config/v8-windows.ts",
+      "bytes": 2968,
+      "sha256": "c5052aad6fdd8a16c19eba393f2b58723fa3d098040b076bd13659c8c458fafe",
+      "mode": 420
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 149,
+      "sha256": "e0c4c6cb5969392f14e755aca0d84003a1e3f4111a1761bd26a5017969fd674f",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/apply-cavity.ts",
+      "bytes": 1315,
+      "sha256": "51269a92758444f090fbc908a9cebbaca95fb60a9cd1ea6e675c13ade1f7b541",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/dialogue-expiry.ts",
+      "bytes": 710,
+      "sha256": "0f58887c97bdfc3905197abfd4dba30702dd619c942aa9d3e151d79981c724c5",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/model-materials.d.mts",
+      "bytes": 93,
+      "sha256": "63bc1f555f9ee72a61c081753a7cb73fc88672e5383490ce481c4352590d12a7",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/model-materials.mjs",
+      "bytes": 1065,
+      "sha256": "ce3d48d65bb0c6d9bade5e4f23f70af105930968a622fb63b4fc3dafa2540125",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/performance-probe.ts",
+      "bytes": 5620,
+      "sha256": "c3db4e327ab028f73860b8afcdfa219ae70ee5cf2c8004088a98bf1064fe50c2",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/render-loop.ts",
+      "bytes": 784,
+      "sha256": "b7d8c21177f4212a2af6134715a900ee44d986d275b24de015a6835e9bea9844",
+      "mode": 420
+    },
+    {
+      "path": "src/scene/v8.ts",
+      "bytes": 11159,
+      "sha256": "d9dd6a217872fb57a2afa44cc5257efde728af4d5c38865a52b0dbb3852045c1",
+      "mode": 420
+    },
+    {
+      "path": "src/stores/vehicle.ts",
+      "bytes": 16913,
+      "sha256": "8970bc355fba482db372cd6e62e03c3581e770dc9e86c622d207e1ad0b8cd19f",
+      "mode": 420
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 241,
+      "sha256": "8c551f791565ce8a4423e2209f93a493ba1fa5c00213eedfc9400ec69340b5ee",
+      "mode": 420
+    },
+    {
+      "path": "src/voice/final-results.ts",
+      "bytes": 490,
+      "sha256": "b0115b0364ad20123652016fa4204a6243242a67dc5b92cefadaab73d1b586ae",
+      "mode": 420
+    },
+    {
+      "path": "src/voice/microphone.ts",
+      "bytes": 6152,
+      "sha256": "af00937023db5e8fdc62b8a2d485f61894ec41a6b5c6e3a9515544e2632a7a17",
+      "mode": 420
+    },
+    {
+      "path": "src/voice/voice-turns.ts",
+      "bytes": 996,
+      "sha256": "9faab4311fb4957ef663e01eab0b66b350b797d9f1fb9585e176ad1599f91050",
+      "mode": 420
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 485,
+      "sha256": "bb3f777ad68642f08cfdf5e9ec1c287bdec94177474150208361ca5211fa8ac4",
+      "mode": 420
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1484,
+      "sha256": "8a123a9add940e0c6be726fa1b3ce1d80bff0e1afeaa62f02564e523276157ec",
+      "mode": 420
+    }
+  ]
+}

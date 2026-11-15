@@ -1,0 +1,302 @@
+[
+  {
+    "id": "common-asr-window-homophone",
+    "text": "右后床开一半",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": { "source": "explicit", "ids": ["RR"], "candidates": [] },
+      "operation": { "kind": "absolute", "value": 0.5 },
+      "missing": null
+    }
+  },
+  {
+    "id": "colloquial-seat",
+    "text": "坐司机后边那位，把那块玻璃落到一半的位置",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "explicit",
+        "ids": [
+          "RL"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "absolute",
+        "value": 0.5
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "colloquial-small-step",
+    "text": "前排乘客那片玻璃稍微多落一点点",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "explicit",
+        "ids": [
+          "FR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "relative",
+        "delta": 0.1
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "unseen-number-wording",
+    "text": "副座后头那扇玻离给我落到三成",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "explicit",
+        "ids": [
+          "RR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "absolute",
+        "value": 0.3
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "unseen-relational-seat",
+    "text": "副驾身后那块玻璃落到三成",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "explicit",
+        "ids": [
+          "RR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "absolute",
+        "value": 0.3
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "unseen-recognition-errors",
+    "text": "右厚创打凯一伴",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "explicit",
+        "ids": [
+          "RR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "absolute",
+        "value": 0.5
+      },
+      "missing": null
+    },
+    "acceptableTypes": [
+      "command",
+      "clarify"
+    ]
+  },
+  {
+    "id": "colloquial-reference",
+    "text": "刚才那块再多透一点风",
+    "context": {
+      "target": "FR"
+    },
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "context",
+        "ids": [
+          "FR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "relative",
+        "delta": 0.1
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "colloquial-pending-reply",
+    "text": "就后头那块",
+    "context": {
+      "pending": {
+        "operation": {
+          "kind": "absolute",
+          "value": 0.5
+        },
+        "candidates": [
+          "FR",
+          "RR"
+        ]
+      }
+    },
+    "expected": {
+      "type": "command",
+      "target": {
+        "source": "pending",
+        "ids": [
+          "RR"
+        ],
+        "candidates": []
+      },
+      "operation": {
+        "kind": "absolute",
+        "value": 0.5
+      },
+      "missing": null
+    }
+  },
+  {
+    "id": "unclear-target-and-amount",
+    "text": "那边那块玻璃留条缝",
+    "context": {},
+    "expected": {
+      "type": "clarify",
+      "target": {
+        "source": "unknown",
+        "ids": [],
+        "candidates": []
+      },
+      "operation": null,
+      "missing": "target"
+    }
+  },
+  {
+    "id": "known-side-unknown-front-rear",
+    "text": "左侧那块玻璃弄低点",
+    "context": {},
+    "expected": {
+      "type": "clarify",
+      "target": {
+        "source": "unknown",
+        "ids": [],
+        "candidates": [
+          "FL",
+          "RL"
+        ]
+      },
+      "operation": {
+        "kind": "relative",
+        "delta": 0.1
+      },
+      "missing": "target"
+    }
+  },
+  {
+    "id": "out-of-domain",
+    "text": "桌上的杯子帮我挪一下",
+    "context": {},
+    "expected": {
+      "type": "unsupported",
+      "target": {
+        "source": "unknown",
+        "ids": [],
+        "candidates": []
+      },
+      "operation": null,
+      "missing": null
+    }
+  },
+  {
+    "id": "unintelligible",
+    "text": "啥啥呃嗯",
+    "context": {},
+    "expected": {
+      "type": "unsupported",
+      "target": {
+        "source": "unknown",
+        "ids": [],
+        "candidates": []
+      },
+      "operation": null,
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-lower-small-step",
+    "text": "副驾驶那块玻璃往下挪一丁点",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": { "source": "explicit", "ids": ["FR"], "candidates": [] },
+      "operation": { "kind": "relative", "delta": 0.1 },
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-raise-small-step",
+    "text": "前排乘客那片玻璃往上收一丁点",
+    "context": {},
+    "expected": {
+      "type": "command",
+      "target": { "source": "explicit", "ids": ["FR"], "candidates": [] },
+      "operation": { "kind": "relative", "delta": -0.1 },
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-active-close-step",
+    "text": "沿用刚才那扇，往上抬一丁点",
+    "context": { "target": "RL" },
+    "expected": {
+      "type": "command",
+      "target": { "source": "context", "ids": ["RL"], "candidates": [] },
+      "operation": { "kind": "relative", "delta": -0.1 },
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-pending-rear",
+    "text": "挑后排那个就好",
+    "context": { "pending": { "operation": { "kind": "absolute", "value": 0.5 }, "candidates": ["FR", "RR"] } },
+    "expected": {
+      "type": "command",
+      "target": { "source": "pending", "ids": ["RR"], "candidates": [] },
+      "operation": { "kind": "absolute", "value": 0.5 },
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-pending-front",
+    "text": "选靠前的那一块玻璃",
+    "context": { "pending": { "operation": { "kind": "absolute", "value": 0.3 }, "candidates": ["FL", "RL"] } },
+    "expected": {
+      "type": "command",
+      "target": { "source": "pending", "ids": ["FL"], "candidates": [] },
+      "operation": { "kind": "absolute", "value": 0.3 },
+      "missing": null
+    }
+  },
+  {
+    "id": "alternate-unknown-target-small-step",
+    "text": "有块玻璃给我降一丁点",
+    "context": {},
+    "expected": {
+      "type": "clarify",
+      "target": { "source": "unknown", "ids": [], "candidates": [] },
+      "operation": { "kind": "relative", "delta": 0.1 },
+      "missing": "target"
+    }
+  }
+]

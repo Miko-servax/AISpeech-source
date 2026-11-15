@@ -1,0 +1,24 @@
+[Unit]
+Description=AISpeech car-control ASR and intent gateway
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=aispeech
+Group=aispeech
+WorkingDirectory=/opt/aispeech/current/backend
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/aispeech/backend.env
+ExecStart=/usr/bin/node server/asr.mjs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

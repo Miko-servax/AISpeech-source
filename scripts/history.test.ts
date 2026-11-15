@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {createPinia,setActivePinia} from 'pinia';
+import {useVehicleStore} from '../src/stores/vehicle';
+setActivePinia(createPinia());const store=useVehicleStore();
+store.windows.FL.current=1;store.setAll(1);const all=store.history[0]!;
+assert.equal(all.targets.FL?.status,'done');store.tick(.5);store.setWindow('FR',0);
+assert.equal(all.targets.FR?.status,'replaced');assert.equal(all.targets.RL?.status,'moving');
+store.tick(10);assert.equal(all.targets.RL?.status,'done');assert.equal(all.targets.RR?.status,'done');assert.equal(all.targets.FL?.status,'done');assert.equal(all.targets.FR?.status,'replaced');
+store.beginSlider();store.setWindow('RL',.2,'slider');store.setWindow('RL',.4,'slider');store.endSlider();
+assert.equal(store.history[0]?.commandIds?.length,2);assert.equal(store.history[0]?.targets.RL?.value,.4);
+store.tick(10);assert.equal(store.history[0]?.targets.RL?.status,'done');
+store.setAll(0);store.togglePlayback();store.togglePlayback();assert.equal(store.history[0]?.targets.FR?.status,'paused');
+console.log('PASS: per-window history completion, partial replacement, slider grouping and pause');

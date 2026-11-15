@@ -1,0 +1,8 @@
+V8 Executive 0.1 — GTV Lab
+Original author: GTV Lab / GTV
+Author website: https://lab.gtvgtv.co.il/
+The application incorporates a working derivative with local door-cavity adjustments,
+exact vertex indexing and lossless GLB compression. Original model authorship is retained.
+The original distribution/use terms are reproduced unchanged in V8-MODEL-LICENSE.txt.
+For copies obtained through Fab, the license selected on the listing and applicable Fab terms govern.
+This notice does not grant a separate license to redistribute the model as a standalone asset.

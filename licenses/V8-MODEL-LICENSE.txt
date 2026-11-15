@@ -1,0 +1,22 @@
+AUVREN MODEL PREVIEW — DISTRIBUTION AND USE
+
+For copies obtained through Fab, the license selected on the Fab listing and
+the applicable Fab terms govern. This file does not replace or restrict rights
+granted by that license. https://www.fab.com/eula
+
+For copies distributed directly by GTV or through GTV's itch.io listing:
+GTV grants you a non-exclusive, worldwide, royalty-free license to use and
+modify the included model and materials in personal and commercial projects,
+including games, applications, renders and videos. You may distribute completed
+projects that incorporate the asset. You may share source files privately with
+collaborators solely to work on those projects.
+
+You may not sell, re-upload, sublicense or give away the model as a standalone
+asset or as part of a competing asset library, including modified versions.
+Do not claim that you created the original asset. Attribution to GTV is
+appreciated but not required. No exclusivity or trademark rights are granted.
+All rights not expressly granted are reserved to the extent permitted by law.
+
+This preview is provided as-is, without warranties or a commitment to updates
+or technical support, to the extent permitted by applicable law. Nothing here
+limits rights or remedies that applicable law does not permit to be limited.

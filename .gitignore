@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.cache/
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+*.log
+
+.local-https/
+
+delivery/
+*.srl
+dist-pages/
+
+# Downloaded installers and unrelated model experiments are not project sources.
+*.dmg
+*.blend
+*.zip
+model-review/generic-sedan/
+model-review/V8 Executive/*.zip
+model-review/V8 Executive/v8_executive_01/Separate-FBX/
+model-review/v8-working/current-collisions.json
+model-review/v8-working/fit-results.json
+
+# Licensed authoring geometry is maintained in the private repository only.
+model-review/V8 Executive/v8_executive_01/V8-Executive.fbx
+model-review/v8-working/door-cavity.patch.json

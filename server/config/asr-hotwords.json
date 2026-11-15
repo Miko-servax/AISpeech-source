@@ -1,0 +1,9 @@
+[
+  {"word":"左前窗","weight":8},{"word":"右前窗","weight":8},
+  {"word":"左后窗","weight":8},{"word":"右后窗","weight":8},
+  {"word":"左前车窗","weight":8},{"word":"右前车窗","weight":8},
+  {"word":"左后车窗","weight":8},{"word":"右后车窗","weight":8},
+  {"word":"主驾","weight":8},{"word":"副驾","weight":8},
+  {"word":"主驾车窗","weight":8},{"word":"副驾车窗","weight":8},
+  {"word":"车窗","weight":6}
+]

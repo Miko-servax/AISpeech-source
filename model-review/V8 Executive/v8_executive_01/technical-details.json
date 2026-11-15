@@ -1,0 +1,11 @@
+{
+  "version": "0.1",
+  "mesh_objects": 486,
+  "triangles": 701004,
+  "materials": 36,
+  "rig_bones": 0,
+  "unit_scale": 0.009999999776482582,
+  "ai_assisted": true,
+  "source_snapshot": "V8Executive-ReferenceDrive.blend",
+  "external_libraries": 0
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFileSync,mkdirSync,writeFileSync} from 'node:fs';
+import {request} from 'node:https';
+import {get} from 'node:http';
+const c=JSON.parse(readFileSync('.local-https/connection.json'));const ca=readFileSync(c.ca);
+const req=(path,options={},body)=>new Promise((resolve,reject)=>{const q=request(c.origin+path,{ca,...options},r=>{const authorized=r.socket.authorized;const chunks=[];r.on('data',d=>chunks.push(d));r.on('end',()=>resolve({status:r.statusCode,headers:r.headers,body:Buffer.concat(chunks),tlsAuthorized:authorized}));});q.setTimeout(5000,()=>q.destroy(new Error('HTTPS入口未响应')));q.on('error',reject);q.end(body);});
+const page=await req('/');assert.equal(page.status,200);assert.ok(page.tlsAuthorized);
+const health=await req('/api/health');assert.equal(health.status,200);assert.equal(JSON.parse(health.body).asrConfigured,true);
+const rule=await req('/api/intent',{method:'POST',headers:{Origin:c.origin,'Content-Type':'application/json'}},JSON.stringify({requestId:'mobile-local-probe',text:'关闭所有车窗',context:{active:null,pending:null}}));assert.equal(rule.status,422);assert.equal(JSON.parse(rule.body).code,'RULE_BLOCKED');
+const worklet=await req('/pcm-worklet.js');assert.equal(worklet.status,200);assert.match(worklet.body.toString(),/registerProcessor/);
+const gzip=await req('/models/v8-working.glb',{method:'HEAD',headers:{'Accept-Encoding':'gzip'}});assert.equal(gzip.headers['content-encoding'],'gzip');
+const root=await new Promise((resolve,reject)=>{const q=get(`http://${c.host}:${c.certPort}/AISpeech-Local-CA.cer`,r=>{const chunks=[];r.on('data',d=>chunks.push(d));r.on('end',()=>resolve(Buffer.concat(chunks)));});q.setTimeout(5000,()=>q.destroy(new Error('证书入口未响应')));q.on('error',reject);});assert.ok(root.equals(readFileSync(c.publicCA)));
+const result={origin:c.origin,tlsAuthorized:page.tlsAuthorized,asrConfigured:true,modelSameOriginAllowed:true,modelProbeStatus:rule.status,worklet:true,glbGzipBytes:Number(gzip.headers['content-length']),rootDownloadVerified:true,phoneTrust:'User must install and trust test CA; not yet verified on phone',cloudCalls:0};mkdirSync('.cache/mobile',{recursive:true});writeFileSync('.cache/mobile/live-entry-check.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

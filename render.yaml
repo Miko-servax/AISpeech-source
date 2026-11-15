@@ -1,0 +1,38 @@
+# Free backend only. The existing GitHub Pages URL remains the frontend.
+services:
+  - type: web
+    name: aispeech-api
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci --omit=dev
+    startCommand: node server/asr.mjs
+    healthCheckPath: /api/health
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.2
+      - key: ALLOWED_ORIGINS
+        value: https://miko-servax.github.io
+      - key: TENCENT_APP_ID
+        sync: false
+      - key: TENCENT_SECRET_ID
+        sync: false
+      - key: TENCENT_SECRET_KEY
+        sync: false
+      - key: TENCENT_ASR_ENGINE
+        value: 16k_zh
+      - key: INTENT_ENABLED
+        value: "true"
+      - key: INTENT_ENDPOINT
+        sync: false
+      - key: INTENT_MODEL
+        sync: false
+      - key: INTENT_API_KEY
+        sync: false
+      - key: INTENT_PROVIDER
+        value: dashscope
+      - key: INTENT_TIMEOUT_MS
+        value: "10000"
+      - key: INTENT_RESPONSE_FORMAT
+        value: json_schema
