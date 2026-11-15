@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:27:52.280Z",
+  "generatedAt": "2026-11-15T17:32:53.566Z",
   "privateHistoryIncluded": false,
   "authoringGeometryIncluded": false,
   "configuredCredentialsAbsent": true,
@@ -161,8 +161,8 @@
     },
     {
       "path": "docs/tencent-scf-deployment.md",
-      "bytes": 6112,
-      "sha256": "9ccda7f4c62b84db1e30e71cac5d1ede32d475bf80254520d687f25b17731fe0",
+      "bytes": 7512,
+      "sha256": "328b458c9014595f7e21af2c4504c1bfc850605f572df3516e69bfb5a2a3feb8",
       "mode": 420
     },
     {
