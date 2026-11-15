@@ -1,6 +1,6 @@
 # 现有GitHub Pages接入云后端的部署方案
 
-更新日期：2026-11-16。Render Free后端已由用户创建并填写凭据，地址为https://aispeech-api.onrender.com。GitHub Pages继续使用原址。真实Qwen请求通过；腾讯ASR遇到境外调用限制，语音尚未通过验收。
+更新日期：2026-11-16。以下保留早期Render Free方案及其真实联调记录。当前默认入口已改用[广州SCF](tencent-scf-deployment.md)，真实ASR测试音频的final/done与Qwen接口均已通过，GitHub Pages仍使用原址。Render保留，未在本次删除或关闭。
 
 ## 真实联调结果
 
@@ -10,7 +10,7 @@
 - Render当前部署在新加坡；继续使用该部署需匹配境外调用的ASR账号开通条件，或将ASR后端放在可使用当前国内站账号的运行环境。本机临时通道需电脑与进程保持在线，不能当长期云服务验收通过。
 - Pages默认后端URL已保存在shared/public-deployment.mjs；显式VITE_API_BASE_URL可覆盖，设为空字符串可构建纯静态版。语音连接失败会显示原因，不将AI成功宣称为语音成功。
 
-用户已选择纯云端，继续使用原页面。国际站ASR的账号资格、后付费及免费额度核对见[开通核对记录](tencent-international-asr.md)；目前尚未开通或替换国际站凭据，不能将语音标记为已通过。
+用户已选择纯云端，继续使用原页面。国际站ASR的账号资格、后付费及免费额度核对见[开通核对记录](tencent-international-asr.md)；最终沿用国内站账号和广州SCF，不依赖Mac在线。下文Render步骤用于历史方案参考。
 
 ## 最短免费部署步骤
 

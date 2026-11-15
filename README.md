@@ -12,12 +12,12 @@
 | 项目 | 状态 |
 | --- | --- |
 | 旋转、四窗按钮/滑块、文字指令 | 本地及公开页面已验证 |
-| 云端 AI 文字控车 | Render 后端 + Qwen 实际调用已通过；模型关闭思考模式 |
-| 云端语音 | 网关已接入；当前新加坡 Render 调用腾讯国内站 ASR 返回 6001，语音尚未完成公网验收 |
+| 云端 AI 文字控车 | 广州 SCF + Qwen 实际调用已通过；模型关闭思考模式 |
+| 云端语音 | 广州 SCF 真实测试音频已收到正确 final/done；浏览器麦克风及手机仍需设备实测 |
 | 手机布局、HTTPS 联调、性能记录入口 | 已实现；完整手机真机设备/画质/帧率对照仍待补齐 |
 | 小程序 | 当前交付为网页，没有小程序工程 |
 
-页面继续使用原地址。当前后端为 `https://aispeech-api.onrender.com`，`/api/health` 正常只说明进程和配置已加载，不能替代真实语音或模型验收。ASR 地区限制与已准备的国内 SCF 方案分别见 [托管联调记录](docs/hosted-backend-plan.md)、[SCF 部署说明](docs/tencent-scf-deployment.md)。
+页面继续使用原地址。默认后端为 `https://1257253028-ejvbd6nvzl.ap-guangzhou.tencentscf.com`。`/api/health` 正常只说明进程和配置已加载，不能替代真实语音或模型验收。国内函数配置与联调数据见 [SCF 部署说明](docs/tencent-scf-deployment.md)，早期 Render 结果见 [托管联调记录](docs/hosted-backend-plan.md)。
 
 ## 功能与交互
 
@@ -151,7 +151,7 @@ npm run build
 
 **GitHub Pages + 托管后端**：现有页面使用 `build:pages`，API/WSS 连接独立 HTTPS 后端。Render 通过根目录 `render.yaml` 创建后端，构建 `npm ci --omit=dev`、启动 `node server/asr.mjs`；凭据只在平台环境设置。当前关闭自动部署，代码推送不会自动替换运行中的后端。具体更新步骤见 [GitHub 发布](docs/github-publishing.md) 和 [Render 联调](docs/hosted-backend-plan.md)。
 
-当前 Render 使用腾讯国内站 ASR 遇到 6001。国际站开通条件与额度核对见 [国际站说明](docs/tencent-international-asr.md)；国内部署已准备 [SCF Web 函数包与配置](docs/tencent-scf-deployment.md)，尚未部署验收。免费托管额度、ASR 和模型调用额度分别计算，不承诺整条链路永久免费。继续沿用原页面不需要迁移车模站点。
+默认使用[广州 SCF Web 函数](docs/tencent-scf-deployment.md)，已验证 ASR 测试音频和 Qwen 接口。Render 是早期方案，其国内站 ASR 境外调用曾返回6001；保留历史记录，不作为当前语音后端。SCF 函数 URL 由平台标记为测试入口，当前用于本 Demo 联调，正式生产应按平台要求绑定自定义域名。免费托管额度、ASR 和模型调用额度分别计算，不承诺整条链路永久免费。原页面地址及车模保持不变。
 
 **Linux 同源部署**：Nginx 托管前端并代理 `/api/*` 的 HTTP/WS 到 Node，使用公有 CA 证书。提供 [Nginx](deploy/nginx.conf.example)、[systemd](deploy/aispeech.service.example) 和空凭据环境模板。完整安装、TLS、WebSocket、gzip、上线检查及整体回滚步骤见 [Linux 部署说明](docs/deployment-linux.md)。
 

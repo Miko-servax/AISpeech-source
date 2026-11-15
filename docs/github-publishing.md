@@ -12,7 +12,7 @@
 
 ## 当前页面与后端
 
-已发布的页面支持旋转、四窗独立调节、明确文字/续接/追问与复合批次。当前 API 地址由 `shared/public-deployment.mjs` 提供，显式 `VITE_API_BASE_URL` 可覆盖；普通构建仍默认同源 `/api`。同一页面连接 `https://aispeech-api.onrender.com/api`，Qwen 真实文字控车已验证。腾讯国内站 ASR 从新加坡 Render 调用返回 6001，语音未完成公网验收。不要把最初静态版“语音与 AI 未开放”的发布状态当成当前全部功能状态。
+已发布的页面支持旋转、四窗独立调节、明确文字/续接/追问与复合批次。当前 API 地址由 `shared/public-deployment.mjs` 提供，显式 `VITE_API_BASE_URL` 可覆盖；普通构建仍默认同源 `/api`。默认后端为广州腾讯云 SCF，已验证真实测试音频的 ASR final/done 和 Qwen 意图接口；具体地址及数据见 [SCF 联调](tencent-scf-deployment.md)。早期新加坡 Render 曾返回 ASR 6001，当前不再作为默认语音后端。手机麦克风与网络体验仍需实际设备验收。
 
 Pages 只托管静态文件，不能运行 ASR/模型代理。保持当前页面地址，只替换构建时的公开 API 地址即可接其他后端。凭据始终在后端；部署细节见 [托管后端](hosted-backend-plan.md)、[国内 SCF 方案](tencent-scf-deployment.md)、[同源 Linux 部署](deployment-linux.md)。
 

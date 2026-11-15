@@ -3,6 +3,8 @@ import {resolve,dirname,basename} from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {parseEnv} from 'node:util';
+import {checkPublishCredentials} from './check-publish-credentials.mjs';
+import {pagesApiBase} from '../shared/public-deployment.mjs';
 
 // Export reviewed, version-controlled application files, never private Git history.
 // Stage intended new files before running this command. No network operations.
@@ -14,9 +16,9 @@ const excluded=[
 ];
 const tracked=spawnSync('git',['ls-files','-z'],{encoding:'utf8'});
 if(tracked.status!==0)throw new Error('Run from a Git checkout with reviewed files staged.');
-const credentials=new Set();
+const credentials=[];
 for(const values of [process.env,...['.env.local','server/.env.local'].filter(existsSync).map(path=>parseEnv(readFileSync(path,'utf8')))]){
-  for(const key of ['TENCENT_APP_ID','TENCENT_SECRET_ID','TENCENT_SECRET_KEY','INTENT_API_KEY'])if(values[key]?.length>=8)credentials.add(values[key]);
+  for(const key of ['TENCENT_APP_ID','TENCENT_SECRET_ID','TENCENT_SECRET_KEY','INTENT_API_KEY'])if(values[key]?.length>=8)credentials.push({key,value:values[key]});
 }
 const files=[],contents=new Map();
 for(const path of [...new Set(tracked.stdout.split('\0').filter(Boolean))].sort()){
@@ -29,7 +31,7 @@ for(const path of [...new Set(tracked.stdout.split('\0').filter(Boolean))].sort(
   const bytes=readFileSync(path),text=bytes.toString('utf8');
   if(/^-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----\r?\n/m.test(text))throw new Error('Private key found: '+path);
   if(/\b(?:ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AKID[A-Za-z0-9]{28,}|sk-[A-Za-z0-9_-]{24,})\b/.test(text))throw new Error('Potential credential found (value withheld): '+path);
-  for(const value of credentials)if(bytes.includes(Buffer.from(value)))throw new Error('Configured credential found (value withheld): '+path);
+  checkPublishCredentials(bytes,credentials,new URL(pagesApiBase).hostname,path);
   files.push({path,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex'),mode:stat.mode&0o777});contents.set(path,bytes);
 }
 for(const path of ['src/App.vue','server/asr.mjs','server/intent.mjs','shared/batch.mjs','package-lock.json','README.md','public/models/v8-working.glb','licenses/V8-MODEL-LICENSE.txt','public/licenses/V8-MODEL-LICENSE.txt']){

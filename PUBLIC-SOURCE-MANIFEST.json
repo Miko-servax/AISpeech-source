@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:18:18.588Z",
+  "generatedAt": "2026-11-15T17:27:52.280Z",
   "privateHistoryIncluded": false,
   "authoringGeometryIncluded": false,
   "configuredCredentialsAbsent": true,
@@ -53,8 +53,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15643,
-      "sha256": "b19ea8a66c7c21f85e089a789ebe0abcea0191657bc4bc3e5136e731a0352a1f",
+      "bytes": 15759,
+      "sha256": "eae59d0d58b2403f44112bc66f819bd412e374cb6f31fc8d4fe6be67989eb1cb",
       "mode": 420
     },
     {
@@ -119,14 +119,14 @@
     },
     {
       "path": "docs/github-publishing.md",
-      "bytes": 7287,
-      "sha256": "f011fc45ecb6b71e79f8359e7e0a6b28b3060ef5fca098d2f83d2b11ba256a24",
+      "bytes": 7315,
+      "sha256": "4bb92bc06f8e077ca327e7804ddba9f18fb60a081cd1d77b707c8c3437c4dbd0",
       "mode": 420
     },
     {
       "path": "docs/hosted-backend-plan.md",
-      "bytes": 9184,
-      "sha256": "f8de9cdf6084cd2acde534d192e0fb284f0bab2f97c13a644423b333dbd99c59",
+      "bytes": 9259,
+      "sha256": "0e87b4db835a49a0e221fa9d440d013205ca982004b0c064f86b065a65183ca8",
       "mode": 420
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "path": "docs/tencent-scf-deployment.md",
-      "bytes": 4281,
-      "sha256": "9a0132ca82d50ae511cc5e805a51e5df2627bbd91e819f8497603455097fb45d",
+      "bytes": 6112,
+      "sha256": "9ccda7f4c62b84db1e30e71cac5d1ede32d475bf80254520d687f25b17731fe0",
       "mode": 420
     },
     {
@@ -436,6 +436,12 @@
       "mode": 420
     },
     {
+      "path": "scripts/check-publish-credentials.mjs",
+      "bytes": 664,
+      "sha256": "6447d1b799b10d3ee480c47922cb624c269bee7bcf1202628b2ead02b9e892a6",
+      "mode": 420
+    },
+    {
       "path": "scripts/check-v8.mjs",
       "bytes": 5066,
       "sha256": "3a7ca39be411065824ff7b7497b3b841537a0336a770274fd61af6be23c70e76",
@@ -515,14 +521,14 @@
     },
     {
       "path": "scripts/prepare-pages.mjs",
-      "bytes": 4458,
-      "sha256": "d6171b884d4aab17ca31c647246b514c91f6ed0b3bc81f466dff2b03a0c7d0d4",
+      "bytes": 4554,
+      "sha256": "ac50fecb230854c56ff49d03b8fc41e916d0f3a915d4d8d5f978923b0aa3f041",
       "mode": 420
     },
     {
       "path": "scripts/prepare-public-source.mjs",
-      "bytes": 3677,
-      "sha256": "feda12bb43c78e8c879adc87b27c4e7028900ab7d54b5eac7f562aae77af0a88",
+      "bytes": 3757,
+      "sha256": "7d7c9c7ca12c1f5d749298725c620245d49c375e36fd8ce95918ec1d9a6aab19",
       "mode": 420
     },
     {
@@ -595,6 +601,12 @@
       "path": "scripts/test-mobile-https.mjs",
       "bytes": 4867,
       "sha256": "27b5d0372729a09f8ce8d823cc3664e2a631815539229d4de7449420a26c593f",
+      "mode": 420
+    },
+    {
+      "path": "scripts/test-publish-credentials.mjs",
+      "bytes": 1129,
+      "sha256": "670e62deeeb3a25924bea9f59b2c2f848fab9b863391cd3aec7e05714924a03c",
       "mode": 420
     },
     {
@@ -701,8 +713,8 @@
     },
     {
       "path": "shared/public-deployment.mjs",
-      "bytes": 139,
-      "sha256": "52fb62310a7b7b27b9f7909edadd376e0a49804f50d0277414a7483a4f21f0bb",
+      "bytes": 163,
+      "sha256": "45e587903013853a7fea507db9fdc3c5c250d117a735e21880f767d32a22e74c",
       "mode": 420
     },
     {
